@@ -1,0 +1,30 @@
+{
+  "name": "p",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no074054/students.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/no074054/students/issues"
+  },
+  "homepage": "https://github.com/no074054/students#readme",
+  "description": "",
+  "devDependencies": {
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "axios": "^1.3.3",
+    "vue": "^3.2.47",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
